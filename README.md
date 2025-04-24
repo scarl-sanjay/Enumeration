@@ -59,13 +59,6 @@ Check all NS records for zone transfers
 Enumerate general DNS records for a given domain (MX, SOA, NS, A, AAAA, SPF , TXT)
 Perform common SRV Record Enumeration
 Top level domain expansion
-## OUTPUT:
-
-
-
-
-
-
 
 ##dnsenum
 Dnsenum is a multithreaded perl script to enumerate DNS information of a domain and to discover non-contiguous ip blocks. The main purpose of Dnsenum is to gather as much information as possible about a domain. The program currently performs the following operations:
@@ -97,16 +90,37 @@ telnet <host address> 25 to connect
 and issue appropriate commands
   
  ##Output
-  
-  
-
 ## nmap –script smtp-enum-users.nse <hostname>
 
 The smtp-enum-users.nse script attempts to enumerate the users on a SMTP server by issuing the VRFY, EXPN or RCPT TO commands. The goal of this script is to discover all the user accounts in the remote system.
 
-
 ## OUTPUT:
-
+# site:example.com
+![image](https://github.com/user-attachments/assets/19ba4039-fcd1-47ea-96c0-e2a9a6c6bc83)
+# filetype:pdf 
+![image](https://github.com/user-attachments/assets/73617bf0-3235-4db9-b2b5-b0899fce25d3)
+# intext:password
+![image](https://github.com/user-attachments/assets/3bad798f-c6c7-4bc6-883e-424febca269e)
+# inurl:admin
+![image](https://github.com/user-attachments/assets/c1f530f6-172e-46b9-978b-2ea41262083c)
+# intitle:index of
+![image](https://github.com/user-attachments/assets/42b11718-6b80-4245-baf5-8488ee8d204e)
+# link:example.com
+![image](https://github.com/user-attachments/assets/c5db0a95-031e-40ac-84e3-34e589300f4b)
+# cache:example.com
+![image](https://github.com/user-attachments/assets/65ccc8fb-814d-47df-8fbb-dd17053ae38d)
+# DNS Enumeration
+# DNS Recon
+![image](https://github.com/user-attachments/assets/8770779a-63c0-4d27-af67-5eb7045d2ac6)
+# dnsenum
+![image](https://github.com/user-attachments/assets/e4838cec-c94b-4835-8739-ed190f12ee95)
+# smtp-user-enum
+![image](https://github.com/user-attachments/assets/eaafb90a-ac1e-4ff0-bbaf-51d5ce4e6618)
+![image](https://github.com/user-attachments/assets/b4d65497-265e-4213-9c54-4a6426156acd)
+# Telnet for smtp enumeration
+![image](https://github.com/user-attachments/assets/cb2a9d75-fc15-4f8b-b38e-23af661a2448)
+# nmap-script smtp-enum-user.nse
+![image](https://github.com/user-attachments/assets/8adf4d87-a531-42d2-a9cb-2628fa9fa3cb)
 
 ## RESULT:
 The Google hacking keywords and enumeration tools were identified and executed successfully
